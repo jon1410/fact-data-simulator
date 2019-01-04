@@ -34,13 +34,6 @@ public class FactDataSimulatorController {
         return "ALIVE!";
     }
 
-    @PostMapping("/test/generate")
-    public String testPost(@RequestParam(value="timekey", required=true) String timekey) {
-
-        System.out.println(timekey);
-        return timekey;
-    }
-
     @PostMapping("/generate")
     public String generateRandomFacts(@RequestParam(value="timekey", required=true) String timekey) {
 
