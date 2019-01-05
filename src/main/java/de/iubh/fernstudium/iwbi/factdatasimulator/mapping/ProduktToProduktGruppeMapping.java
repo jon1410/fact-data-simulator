@@ -14,7 +14,7 @@ public class ProduktToProduktGruppeMapping {
     @PostConstruct
     public void init() {
         sachVersicherungProdukte = new LinkedHashSet<>(Arrays.asList("HUHV", "EGHV", "HAHV", "KFZV", "RESV"));
-        personenVersicherungProdukte = new LinkedHashSet<>(Arrays.asList("ERLV", "ABLV", "RALV", "KRKV"));
+        personenVersicherungProdukte = new LinkedHashSet<>(Arrays.asList("ERLV", "ABLV", "RALV", "KRKV", "EALV"));
     }
 
     public String getProduktGruppeForProdukt(String produktKey) {
